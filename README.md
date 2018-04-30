@@ -154,6 +154,7 @@ We use Thymeleaf to automatically add the CSRF token to our form. If we were not
 
 https://docs.spring.io/spring-security/site/docs/current/guides/html5/form-javaconfig.html#creating-a-login-view
 
+어쨋든, 태그만 넣으면 CSRF 토큰은 자동으로 생성 될 것이다. 아마도 @EnableWebSecurity 어노테이션 사용으로 인해서 적용이 되는 것 같다. 
 
 #### 로그아웃
 로그아웃 역시 유사한 방법으로 구현하면 된다. 
